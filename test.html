@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>コロナチェッカー</title>
+<style type="text/css">
+body{
+background:radial-gradient(#2FFFFF,#FFFFFF);
+}
+body{
+background:linear-gradient(#9FFFFF,#FFFFFF);
+}
+</style>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/common.css">
+</head>
+<body>
+	<h1>コロナチェッカー</h1>
+	<table>
+		<tr>
+			<td>
+				<form action="${pageContext.request.contextPath}/public/userLogin.jsp" method="get">
+					<input id="button" type="submit" value="ユーザーログイン" >
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form action="${pageContext.request.contextPath}/public/userRegist.jsp" method="get">
+					<input id="button" type="submit" value="新規登録" >
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form action="${pageContext.request.contextPath}/public/managerLogin.jsp" method="get">
+					<input id="button" type="submit" value="管理者の方はこちらs" >
+				</form>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
